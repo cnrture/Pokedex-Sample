@@ -5,3 +5,8 @@ data class Pokemon(
     val name: String?,
     val pokemonId: Int?,
 )
+
+data class PokemonRequest(
+    val name: String,
+    val pokemonId: Int,
+)
